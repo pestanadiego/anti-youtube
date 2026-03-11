@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3 style="font-size: 32px;">Anti-Youtube</h3>
+<h1>Anti-Youtube</h1>
 Watch your favorite creators without getting hooked by the algorithm
 
 </div>
