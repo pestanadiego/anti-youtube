@@ -8,8 +8,8 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "free youtube",
-  description: "Latest videos from your channels. Nothing else.",
+  title: "Anti Youtube",
+  description: "Latest videos from your favorite channels. Nothing else",
 };
 
 export default function RootLayout({
@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geist.variable} font-sans antialiased bg-neutral-50 text-neutral-900`}>
+      <body
+        className={`${geist.variable} font-sans antialiased bg-neutral-50 text-neutral-900`}
+      >
         {children}
       </body>
     </html>
